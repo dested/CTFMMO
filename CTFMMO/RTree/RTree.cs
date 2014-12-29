@@ -868,11 +868,12 @@ namespace RTree
             {
                 float tempDistance = n.entries[i].distance(p);
                 if (n.isLeaf())
-                { // for leaves, the distance is an actual nearest distance 
+                {
+                    // for leaves, the distance is an actual nearest distance 
                     if (tempDistance < nearestDistance)
                     {
-                        nearestDistance = tempDistance;
-                        nearestIds.Clear();
+//                        nearestDistance = tempDistance;
+//                        nearestIds.Clear();
                     }
                     if (tempDistance <= nearestDistance)
                     {

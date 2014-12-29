@@ -175,7 +175,8 @@ namespace RTree
          * 
          * @return true if the rectangles intersect, false if they do not intersect
          */
-        internal bool intersects(Rectangle r)
+
+        public bool intersects(Rectangle r)
         {
             // Every dimension must intersect. If any dimension
             // does not intersect, return false immediately.
